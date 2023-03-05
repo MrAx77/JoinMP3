@@ -11,7 +11,7 @@ public class Solution {
 
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
-            sayAndWaitEnter("Нет параметров запуска! Ну совсем нет!");
+            sayAndWaitEnter("Нет параметров запуска!");
             return;
         }
         File dir = new File(args[0]);
